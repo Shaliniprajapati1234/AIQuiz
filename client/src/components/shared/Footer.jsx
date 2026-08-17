@@ -9,7 +9,7 @@ export default function Footer() {
           <div className="md:col-span-1">
             <div className="flex items-center gap-2 mb-3">
               <Brain size={24} className="text-primary" />
-              <span className="text-xl font-bold">Quizify</span>
+              <span className="text-xl font-bold">AIQuiz</span>
             </div>
             <p className="text-muted-foreground text-sm">
               AI-powered quizzes to supercharge your learning journey.
@@ -47,7 +47,7 @@ export default function Footer() {
         <Separator className="my-8" />
 
         <p className="text-center text-sm text-muted-foreground">
-          &copy; {new Date().getFullYear()} Quizify. All rights reserved.
+          &copy; {new Date().getFullYear()} AIQuiz. All rights reserved.
         </p>
       </div>
     </footer>

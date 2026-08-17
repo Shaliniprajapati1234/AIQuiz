@@ -41,7 +41,7 @@ export default function Hero() {
             </h1>
 
             <p className="mt-6 text-muted-foreground text-lg leading-relaxed max-w-md">
-              Quizify uses advanced AI to generate adaptive quizzes, provide instant
+              AIQuiz uses advanced AI to generate adaptive quizzes, provide instant
               feedback, and give you a personalized path to mastery — for any topic.
             </p>
 

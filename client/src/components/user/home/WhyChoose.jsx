@@ -41,14 +41,14 @@ export default function WhyChoose() {
             transition={{ duration: 0.5 }}
           >
             <Badge variant="outline" className="mb-4 text-primary border-primary/30 bg-primary/5">
-              Why Quizify
+              Why AIQuiz
             </Badge>
             <h2 className="text-4xl font-extrabold tracking-tight leading-tight">
               Built differently,{" "}
               <span className="text-primary">designed to work</span>
             </h2>
             <p className="mt-4 text-muted-foreground text-lg leading-relaxed">
-              Unlike static quiz tools, Quizify adapts to you — combining AI, analytics,
+              Unlike static quiz tools, AIQuiz adapts to you — combining AI, analytics,
               and smart pacing so every study session counts.
             </p>
 
@@ -101,7 +101,7 @@ export default function WhyChoose() {
 
             <div className="rounded-2xl border bg-card p-6 shadow-sm">
               <p className="text-sm text-muted-foreground leading-relaxed italic">
-                "Quizify helped me go from failing my ML course to acing it in just 3 weeks.
+                "AIQuiz helped me go from failing my ML course to acing it in just 3 weeks.
                 The AI explanations after each question are a game changer."
               </p>
               <div className="mt-3 flex items-center gap-2">

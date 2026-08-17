@@ -171,7 +171,7 @@ export default function DashboardPage() {
                   <BrainCog size={22} className="animate-pulse" />
                 </div>
                 <div>
-                  <h1 className="text-lg font-bold tracking-tight text-foreground">Quizify</h1>
+                  <h1 className="text-lg font-bold tracking-tight text-foreground">AIQuiz</h1>
                   <span className="text-[10px] font-semibold text-indigo-600 dark:text-indigo-400 uppercase tracking-widest block">Dashboard</span>
                 </div>
               </div>
@@ -186,7 +186,7 @@ export default function DashboardPage() {
                   </div>
                   <div className="flex-1 min-w-0">
                     <p className="text-xs font-semibold text-foreground truncate">{user.name}</p>
-                    <p className="text-[10px] text-muted-foreground truncate">{user.email || "user@quizify.com"}</p>
+                    <p className="text-[10px] text-muted-foreground truncate">{user.email || "user@aiquiz.com"}</p>
                     <span className={`inline-flex items-center gap-1 text-[9px] font-bold uppercase px-1.5 py-0.5 rounded mt-1.5 ${
                       user.role?.name === "admin"
                         ? "bg-violet-500/10 text-violet-500 border border-violet-500/20"

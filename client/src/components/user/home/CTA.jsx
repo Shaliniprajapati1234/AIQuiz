@@ -27,7 +27,7 @@ export default function CTA() {
           </h2>
 
           <p className="mt-5 text-primary-foreground/80 text-lg max-w-xl mx-auto">
-            Join 10,000+ learners already using Quizify to ace exams, upskill
+            Join 10,000+ learners already using AIQuiz to ace exams, upskill
             faster, and retain more with AI.
           </p>
 

@@ -9,23 +9,23 @@ import { Badge } from "../../ui/badge";
 const faqs = [
   {
     id: "1",
-    q: "How does Quizify generate quizzes using AI?",
-    a: "Quizify uses large language models to analyze your chosen topic or uploaded content. It then generates contextually accurate, difficulty-calibrated questions with multiple-choice options and detailed explanations — all in seconds.",
+    q: "How does AIQuiz generate quizzes using AI?",
+    a: "AIQuiz uses large language models to analyze your chosen topic or uploaded content. It then generates contextually accurate, difficulty-calibrated questions with multiple-choice options and detailed explanations — all in seconds.",
   },
   {
     id: "2",
-    q: "Is Quizify free to use?",
+    q: "Is AIQuiz free to use?",
     a: "Yes! Our free plan gives you access to AI quiz generation, basic analytics, and up to 10 quizzes per month. Premium plans unlock unlimited quizzes, advanced analytics, and custom branding.",
   },
   {
     id: "3",
     q: "Can I track my learning progress over time?",
-    a: "Absolutely. Quizify's dashboard shows your score trends, topic-wise accuracy, time spent, and streak history so you always know where to focus next.",
+    a: "Absolutely. AIQuiz's dashboard shows your score trends, topic-wise accuracy, time spent, and streak history so you always know where to focus next.",
   },
   {
     id: "4",
-    q: "What subjects and topics does Quizify support?",
-    a: "Quizify works across virtually any topic — programming, history, science, law, medicine, finance, and more. If you can describe it, AI can quiz you on it.",
+    q: "What subjects and topics does AIQuiz support?",
+    a: "AIQuiz works across virtually any topic — programming, history, science, law, medicine, finance, and more. If you can describe it, AI can quiz you on it.",
   },
   {
     id: "5",

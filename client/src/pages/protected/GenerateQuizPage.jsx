@@ -31,7 +31,7 @@ import {
 import { toast } from "react-hot-toast";
 
 const LOADING_STEPS = [
-  "Initializing Quizify AI intelligence core...",
+  "Initializing AIQuiz AI intelligence core...",
   "Retrieving topic data and structuring curriculum...",
   "Drafting adaptive multiple choice questions...",
   "Calibrating question difficulties and cognitive loads...",

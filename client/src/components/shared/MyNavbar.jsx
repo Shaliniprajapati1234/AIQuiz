@@ -24,7 +24,7 @@ function MyNavbar() {
           className="text-2xl font-bold flex items-center gap-2 tracking-wide"
         >
           <BrainCog />
-          <span> Quizify</span>
+          <span> AIQuiz</span>
         </Link>
 
         <div className="flex gap-5 justify-center items-center">
