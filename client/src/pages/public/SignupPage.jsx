@@ -18,7 +18,7 @@ import { LogIn, User2 } from "lucide-react";
 
 import { signUpUser } from "../../services/auth.service";
 import toast from "react-hot-toast";
-import { useNavigate } from "react-router";
+import { useNavigate } from "react-router-dom";
 function SignupPage() {
   const navigate = useNavigate();
   const [formData, setFormData] = useState({
@@ -94,11 +94,12 @@ function SignupPage() {
             onSubmit={handleFormSubmit}
             className="flex  flex-col gap-3 mt-3"
           >
-            {/* email field */}
+            {/* name field */}
             <div className="flex gap-2 flex-col">
               <Label htmlFor="name">Name</Label>
               <Input
                 onChange={handleInputChange}
+                value={formData.name}
                 name="name"
                 id="name"
                 placeholder="Enter your name"
@@ -112,6 +113,7 @@ function SignupPage() {
               <Label htmlFor="email">Email</Label>
               <Input
                 onChange={handleInputChange}
+                value={formData.email}
                 name="email"
                 id="email"
                 placeholder="Enter your email"
@@ -120,11 +122,12 @@ function SignupPage() {
               />
             </div>
 
-            {/* email field */}
+            {/* password field */}
             <div className="flex gap-2 flex-col">
               <Label htmlFor="password">Password</Label>
               <Input
                 onChange={handleInputChange}
+                value={formData.password}
                 name="password"
                 id="password"
                 placeholder="Enter your password"
@@ -137,7 +140,19 @@ function SignupPage() {
               <Button disabled={loading} type="submit" size="lg">
                 {loading ? "Creating account..." : "Signup"}
               </Button>
-              <Button type="reset" size="lg" variant="destructive">
+              <Button
+                type="button"
+                size="lg"
+                variant="destructive"
+                onClick={() => {
+                  setFormData({
+                    name: "",
+                    email: "",
+                    password: "",
+                  });
+                  setError("");
+                }}
+              >
                 Clear
               </Button>
             </div>
@@ -146,7 +161,10 @@ function SignupPage() {
         <CardFooter className="flex flex-col gap-3">
           <p>
             Already have an account?{" "}
-            <span className="text-primary cursor-pointer">Sign In</span>
+            <span className="text-primary cursor-pointer font-medium"
+              onClick={() => navigate("/login")}
+            >
+              Sign In</span>
           </p>
         </CardFooter>
       </Card>

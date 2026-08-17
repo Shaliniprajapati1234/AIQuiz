@@ -17,7 +17,7 @@ import { Button } from "@/components/ui/button";
 import { LogIn } from "lucide-react";
 import { loginUser } from "../../services/auth.service";
 import toast from "react-hot-toast";
-import { useNavigate } from "react-router";
+import { useNavigate } from "react-router-dom";
 import { useAuthContext } from "../../context/AuthContext";
 
 function LoginPage() {
@@ -98,6 +98,7 @@ function LoginPage() {
               <Label htmlFor="email">Email</Label>
               <Input
                 name="email"
+                 value={loginData.email}
                 onChange={handleInputChange}
                 id="email"
                 placeholder="Enter your email"
@@ -106,11 +107,12 @@ function LoginPage() {
               />
             </div>
 
-            {/* email field */}
+            {/* password field */}
             <div className="flex gap-2 flex-col">
               <Label htmlFor="password">Password</Label>
               <Input
                 name="password"
+                value={loginData.password}
                 onChange={handleInputChange}
                 id="password"
                 placeholder="Enter your password"

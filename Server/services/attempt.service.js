@@ -1,7 +1,7 @@
 import Quiz from "../models/quiz.model.js";
 import Question from "../models/question.model.js";
 import QuizAttempt from "../models/quizattempt.model.js";
-import Leaderboard from "../models/learderboard.model.js";
+import Leaderboard from "../models/leaderboard.model.js";
 
 export const startAttempt = async (userId, quizId) => {
   // Check if quiz exists and is published

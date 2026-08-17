@@ -1,4 +1,4 @@
-import Leaderboard from "../models/learderboard.model.js";
+import Leaderboard from "../models/leaderboard.model.js";
 import Quiz from "../models/quiz.model.js";
 
 // Retrieve rankings and current user rank for a specific quiz
